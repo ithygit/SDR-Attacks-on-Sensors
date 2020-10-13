@@ -141,7 +141,7 @@ def plot_gps(gps_file, trajectory_file):
     axs[2].legend(loc = 'upper right')
 
 # Plot the drone GPS trajectory
-# plot_gps ('drone_status1.csv', 'lowercampus.txt')
+# plot_gps ('drone_status.csv', 'lowercampus.txt')
 # plot_gps ('drone_status2.csv')
-plot_gps ('drone_status6.csv', 'holmes6.txt')
+# plot_gps ('drone_status6.csv', 'holmes6.txt')
 

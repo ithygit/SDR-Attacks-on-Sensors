@@ -94,5 +94,5 @@ with open(csv_filename, 'w', newline='') as csvfile:
     
         # time.sleep(0.25)
         
-plot_gps(csv_filename, 'holmes.txt')
+plot_gps(csv_filename, 'lowercampus.txt')
     
