@@ -75,8 +75,8 @@ with open(csv_filename, 'w', newline='') as csvfile:
         v_acc_m = v_acc / 1000
         
         # New variables
-        vel_m_s = vel / 100
-        global_lat_deg = global_lat / 10000000
+        vel_m_s = vel / 100 # convert to m/s
+        global_lat_deg = global_lat / 10000000  # convert to deg
         global_lon_deg = global_lon / 10000000
         global_alt_deg = global_alt / 1000
         global_vx_m_s = global_vx / 100
