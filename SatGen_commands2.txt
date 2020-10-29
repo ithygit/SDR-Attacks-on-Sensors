@@ -1,0 +1,13 @@
+Lat=21.2926725
+Long=-157.8168313
+Height=20
+
+Wait 80s
+
+Hdg=-90@1s
+Vel=3.6@3m
+Vel=0@2m
+
+wait 60s
+
+.end
